@@ -1,37 +1,84 @@
+/* often used classes */
+.pageTitle {
+    font-family: poppins;
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 5px;
+}
+
+.headerLine{ 
+    width: 80%;
+}
+
+.whiteDivideSpace {
+    padding: 250px;
+}
+
 /* nav */
-.navigation{
+.navigationDiv {
+
 }
 
-
-.navigation ul{
+.navigationUl {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
-.navigation li{
-    float: right;
-    list-style: none;
+li {
+    display: inline;
+    
 }
 
-.navigation a {
-    display: block;
-    color: rgb(151, 151, 151);
-    padding: 15px 20px;
-    font-size: 25px;
+li a{
+    display: inline-block;
+    padding: 10px;
     text-decoration: none;
-    font-family: Urbanist;
-
+    color: black; 
+    font-family: poppins;
+    letter-spacing: 3px;   
 }
-
 
 
 
 /* Home */
-#index{
-    margin: 0;
-    padding: 0;
-    background-color: #F6F3EE;
-    height: 1200px;
+#wieBenIk {
+    padding-top: 50px;
+}
+
+#wieBenIkTekst {
+    font-family: poppins;
+    float: left;
+    width: 50%;
+    margin-left: 150px;
+}
+
+#wieBenIkImg {
+    float: left;
+    margin-left: 200px;
+    width: 20%;
 
 }
+
+#Intresses {
+    padding-top: 50px;
+}
+
+#IntressesImg {
+    float: left;    
+    width: 30%;
+    margin-left: 150px;
+}
+
+#IntressesTekst {
+    font-family: poppins;
+    float: right;
+    width: 50%;
+    padding-right: 160px;
+
+}
+
 
 /* Profile */
 #profile{
