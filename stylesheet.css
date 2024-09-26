@@ -15,10 +15,6 @@
 }
 
 /* nav */
-.navigationDiv {
-
-}
-
 .navigationUl {
     list-style-type: none;
     margin: 0;
@@ -26,18 +22,22 @@
     text-align: center;
 }
 
-li {
+.navigationUl li {
     display: inline;
     
 }
 
-li a{
+.navigationUl a{
     display: inline-block;
     padding: 10px;
     text-decoration: none;
     color: black; 
     font-family: poppins;
     letter-spacing: 3px;   
+}
+
+.navigationUl a:hover {
+    text-decoration: underline;
 }
 
 
@@ -68,7 +68,7 @@ li a{
 #IntressesImg {
     float: left;    
     width: 30%;
-    margin-left: 150px;
+    margin-left: 180x;
 }
 
 #IntressesTekst {
@@ -76,6 +76,8 @@ li a{
     float: right;
     width: 50%;
     padding-right: 160px;
+    padding-left: 0px;
+    margin: 0;
 
 }
 
