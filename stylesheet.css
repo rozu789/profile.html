@@ -12,6 +12,22 @@
 
 .whiteDivideSpace {
     padding: 220px;
+    background-color: #ececec;
+}
+
+.whiteDivideSpaceSmall {
+    padding: 170px;
+    background-color: #ececec;
+}
+
+.whiteDivideSpaceXSmall {
+    padding: 50px;
+    background-color: #ececec;
+}
+
+.whiteDivideSpaceXXSmall {
+    padding: 20px;
+    background-color: #ffffff;
 }
 
 .squigglyLine {
@@ -46,41 +62,25 @@
 }
 
 
-
 /* profile */
-#wieBenIk {
-    padding-top: 50px;
-}
 
 #wieBenIkTekst {
-    font-family: poppins;
     float: left;
-    width: 60%;
-    padding-left: 10%;
-}
-
-#wieBenIkImg {
-    float: left;
-    width: 30%;
+    width: 50%;
     text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-family: poppins;
 }
 
-#Intresses {
-    padding-top: 50px;
-}
-
-#IntressesImg {
-    float: left; 
-    width: 30%;
-    text-align: center;   
-}
 
 #IntressesTekst {
+    float: left;
+    width: 50%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
     font-family: poppins;
-    float: right;
-    width: 60%;
-    padding-right: 10%;
 }
+
 
 #profileFooter {
     background-color: rgb(209, 241, 199);
@@ -88,5 +88,43 @@
 
 
 /* home */
+#waaromIct {
+    float: left;
+    width: 50%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-family: poppins;
+}
+
+#watHierna {
+    float: left;
+    width: 50%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-family: poppins;
+}
+
+/* faq */
+.faqQuestions {
+    float: left;
+    width: 33%;
+    height: 200px;
+    font-family: poppins;
+    overflow: auto;
+}
+
+#faqQuestionsRow1 {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 200px;
+}
+
+#faqQuestionsRow2 {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    position: fixed;
+    height: 200px;
+}
 
 
+/* blog */
