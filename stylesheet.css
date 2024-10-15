@@ -128,3 +128,18 @@
 
 
 /* blog */
+
+#attemptatsomething {
+    background-color: rgb(255, 255, 255);
+    height:100vh;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+
+}
+
+
+html, body {
+    margin:0px;
+    height:100%;
+}
